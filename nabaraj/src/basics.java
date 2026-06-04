@@ -9,6 +9,7 @@ public class basics {
         int C = A + B;
 
         System.out.println("Sum is " + C);
+        System.out.println("Helllo World!");
 
         // WAP to divide 2 numbers and print them on the screen
         C = B / A;
@@ -24,5 +25,6 @@ public class basics {
         int sum = num1 + num2;
 
         System.out.println("Sum of " + num1 + " & " + num2 + " = " + sum);
+        sc.close();
     }
 }
