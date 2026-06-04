@@ -1,14 +1,19 @@
 Class names should Start with Uppercase and should match with the program file name.
 Program is written inside the main method/Function.
+----------------------------------------------------------------------------------------------------------
 
+----------------------------------------------------------------------------------------------------------
 >> Access Modifiers:
 -private - Me only
 -public - Everyone
 -protected - My package + my children (sub classes)
 -default - My package only
+----------------------------------------------------------------------------------------------------------
 
+----------------------------------------------------------------------------------------------------------
 >> Datatypes:
 -Primitive -> Stores Value directly
+***********************************
 --int - 4 bytes                > e.g: 10, -5  [Whole numbers]
 --float - 4 bytes              > e.g: 3.5f  [Decimal numbers]
 --long - 8 bytes               > e.g: 100000L  [Large integers]
@@ -19,15 +24,19 @@ Program is written inside the main method/Function.
 --short - 2 bytes              > e.g: 1000  [Short Integers]
 
 -Non Primitive: -> Stores reference (object)
+********************************************
 --String -> Text
 --Array -> List of similar types of elements (note: int[] for 1D  &  int[][] for 2D)
 --Class & Objects -> like Scanner, ArrayList
+----------------------------------------------------------------------------------------------------------
 
-
+----------------------------------------------------------------------------------------------------------
 >> Print Statement/ Output:
 System.out.println();
 System.out.print();
+----------------------------------------------------------------------------------------------------------
 
+----------------------------------------------------------------------------------------------------------
 >> Taking User-Input:
 -import java.util.Scanner  --> It is importing the utility package of Java containing Scanner Class.
 --java -> main package
@@ -51,6 +60,9 @@ System.out.print();
 --Examples of taking Inputs:
         int a = sc.nextInt();
         String name = sc.next();
+----------------------------------------------------------------------------------------------------------
 
+----------------------------------------------------------------------------------------------------------
 *Note:
     'new' is a keyword used to create an objects in Java. It allocates memory for an object and returns its reference. new keyword builds the real object.
+----------------------------------------------------------------------------------------------------------
