@@ -19,7 +19,7 @@ Program is written inside the main method/Function.
 --long - 8 bytes               > e.g: 100000L  [Large integers]
 --double - 8 bytes             > e.g: 3.1415  [Precise decimals]
 --char - 2 bytes               > e.g: 'A'  [Single character]
---byte - 1 byte                > e.g: 100 (range: -128 - 127)  [Small integers]
+--byte - 1 byte                > e.g: 100 (range: (-128) - 127)  [Small integers]
 --boolean - 1 bit              > e.g: true/false  [Condition]
 --short - 2 bytes              > e.g: 1000  [Short Integers]
 
